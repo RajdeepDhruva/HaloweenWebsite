@@ -1,0 +1,60 @@
+html{
+	background-image:url("../images/bats.gif");
+}										/*Adding background image to the website*/
+
+body {
+	font-family: sans-serif;			
+    width: 800px;
+	background-color: white;
+	margin: 0 auto;
+	padding: 0;
+	border: 3px solid black;
+	box-shadow: 0 9px 18px 9px;
+	margin-bottom: 2em;
+}										/*family font setup*/
+
+header{
+	border-bottom: 2px solid black;
+	background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	padding: 15px;
+}										/*Gradient to support all the modern browsers*/
+header img { float: left; }				/*image float to the left*/
+header h2 {
+	font-size: 200%;
+}										/*page heading color, font-style, size, etc. setup*/
+header h3 {
+	font-size: 130%;
+	text-indent: 30 em;
+}										
+
+section{
+	padding-top: 2em;
+	float: left;
+}										/*Section created for moving the links to the left*/
+main { padding:0 2em 2em 12em; }
+main h1 { font-size: 170%; }
+main h1::first-letter {
+	font-size: 200%
+}										/*font characterictics for main including first-letter specification*/
+main h2 { font-size: 130%; }
+main p.indent { text-indent: 2 em; }
+
+a { font-weight: bold; }				
+a:link { color: orange }
+a:hover, a:focus { color: green }		/*font color and color change when hovered setup*/
+
+footer{
+	border-top: 2px solid black;
+	background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+	background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+	background-image: -o-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+	background-image: -moz-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+	padding: 15px;
+}										/*Gradient to support all the modern browsers*/
+footer p { 
+	font-size: 80%;
+	text-align: center;
+ }										/*footer size and alignment*/
